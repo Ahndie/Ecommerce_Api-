@@ -1,0 +1,67 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Django migrations
+migrations/
+*/migrations/*
+!*/migrations/__init__.py
+
+# SQLite database files
+*.sqlite3
+
+# Django cache files
+cache/
+*.cache
+
+# Environment variables
+.env
+*.env
+
+# Log files
+*.log
+
+# Media and static files
+/media/
+/staticfiles/
+/static/
+
+# IDE and editor-specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Virtual environments
+venv/
+.eCommerce/
+lib/
+include/
+
+# macOS system files
+.DS_Store
+
+# Node modules (if using npm/yarn for frontend)
+node_modules/
+
+# Coverage and testing
+.coverage
+htmlcov/
+
+# pytest cache
+.pytest_cache/
+
+# MyPy
+.mypy_cache/
+
+# Temporary files
+*.tmp
+*.bak
+~*
+
+# Local settings
+settings_local.py
